@@ -46,3 +46,80 @@ header {
     position: absolute;
   }
   
+  h1 {
+    position: static;
+    width: 327px;
+    height: 124px;
+    left: 24px;
+    top: 120px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #FF6B00;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+  }
+  
+  h6 {
+    position: static;
+    width: 327px;
+    height: 27px;
+    left: 24px;
+    top: 256px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFF5E1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+  }
+  
+  p {
+    position: static;
+    width: 327px;
+    height: 123px;
+    left: 24px;
+    top: 295px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 12px 0px;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 200px;
+    height: 40px;
+    left: 24px;
+    top: 430px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 12px 0px;
+    list-style: none;
+  }
+  
+  li {
+    margin-left: 17px;
+  }
