@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    border: 2px solid red;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 375px;
+    height: 48px;
+    background-color: #3C3A39;
+  }
+  
+  .logo {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: roboto;
+    line-height: 24px;
+    text-align: center;
+    width: 77px;
+    height: 24px;
+    top: 10px;
+    left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 24px;
+    color: white;
+  }
+  
+  .nav-icon {
+    position: absolute;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 226px;
+  }
+  
