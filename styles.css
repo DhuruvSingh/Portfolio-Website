@@ -1,19 +1,6 @@
-header {
-  display: flex;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  width: 375px;
-  height: 48px;
-  background-color: #3c3a39;
-}
-
 .logo {
   font-size: 18px;
   font-weight: 700;
-  font-family: roboto;
   line-height: 24px;
   text-align: center;
   width: 77px;
@@ -24,6 +11,18 @@ header {
   margin-bottom: 12px;
   margin-left: 24px;
   color: white;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 375px;
+  height: 48px;
+  background-color: #3c3a39;
 }
 
 .nav-icon {
@@ -41,7 +40,7 @@ section {
   background-color: #1c1a19;
   height: 590px;
   width: 327px;
-  left: 0px;
+  left: 0;
   top: 48px;
   position: absolute;
 }
@@ -52,7 +51,6 @@ h1 {
   height: 124px;
   left: 24px;
   top: 120px;
-  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -62,7 +60,7 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 h6 {
@@ -71,7 +69,6 @@ h6 {
   height: 27px;
   left: 24px;
   top: 256px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -82,7 +79,7 @@ h6 {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 p {
@@ -91,23 +88,22 @@ p {
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   position: static;
   width: 200px;
   height: 40px;
@@ -116,7 +112,7 @@ ul {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
   list-style: none;
 }
 
@@ -129,5 +125,5 @@ li {
   width: 151.89px;
   height: 367.03px;
   left: 223.1px;
-  top: 317px; 
+  top: 317px;
 }
