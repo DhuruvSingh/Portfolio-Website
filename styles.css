@@ -1,125 +1,133 @@
 header {
-    display: flex;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    width: 375px;
-    height: 48px;
-    background-color: #3C3A39;
-  }
+  display: flex;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 375px;
+  height: 48px;
+  background-color: #3C3A39;
+}
   
-  .logo {
-    font-size: 18px;
-    font-weight: 700;
-    font-family: roboto;
-    line-height: 24px;
-    text-align: center;
-    width: 77px;
-    height: 24px;
-    top: 10px;
-    left: 12px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    margin-left: 24px;
-    color: white;
-  }
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: roboto;
+  line-height: 24px;
+  text-align: center;
+  width: 77px;
+  height: 24px;
+  top: 10px;
+  left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+  color: white;
+}
   
-  .nav-icon {
-    position: absolute;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 226px;
-  }
+.nav-icon {
+  position: absolute;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 226px;
+}
   
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 24px;
-    background-color: #1C1A19;
-    height: 590px;
-    width: 327px;
-    left: 0px;
-    top: 48px;
-    position: absolute;
-  }
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  background-color: #1C1A19;
+  height: 590px;
+  width: 327px;
+  left: 0px;
+  top: 48px;
+  position: absolute;
+}
   
-  h1 {
-    position: static;
-    width: 327px;
-    height: 124px;
-    left: 24px;
-    top: 120px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: 0.37px;
-    color: #FF6B00;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 12px 0px;
-  }
+h1 {
+  position: static;
+  width: 327px;
+  height: 124px;
+  left: 24px;
+  top: 120px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
   
-  h6 {
-    position: static;
-    width: 327px;
-    height: 27px;
-    left: 24px;
-    top: 256px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    color: #FFF5E1;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 12px 0px;
-  }
+h6 {
+  position: static;
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  top: 256px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFF5E1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
   
-  p {
-    position: static;
-    width: 327px;
-    height: 123px;
-    left: 24px;
-    top: 295px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 12px 0px;
-  }
+p {
+  position: static;
+  width: 327px;
+  height: 123px;
+  left: 24px;
+  top: 295px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
   
-  ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    position: static;
-    width: 200px;
-    height: 40px;
-    left: 24px;
-    top: 430px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    margin: 12px 0px;
-    list-style: none;
-  }
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 200px;
+  height: 40px;
+  left: 24px;
+  top: 430px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px 0px;
+  list-style: none;
+}
   
-  li {
-    margin-left: 17px;
-  }
+li {
+  margin-left: 17px;
+}
+  
+.Illustration {
+  position: absolute;
+  width: 151.89px;
+  height: 367.03px;
+  left: 223.1px;
+  top: 317px; 
+}
