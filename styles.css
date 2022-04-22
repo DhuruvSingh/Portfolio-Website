@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  width: 77px;
+  height: 24px;
+  top: 10px;
+  left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+  color: white;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 375px;
+  height: 48px;
+  background-color: #3c3a39;
+}
+
+.nav-icon {
+  position: absolute;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 226px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  background-color: #1c1a19;
+  height: 590px;
+  width: 327px;
+  left: 0;
+  top: 48px;
+  position: absolute;
+}
+
+h1 {
+  position: static;
+  width: 327px;
+  height: 124px;
+  left: 24px;
+  top: 120px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+h6 {
+  position: static;
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  top: 256px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+p {
+  position: static;
+  width: 327px;
+  height: 123px;
+  left: 24px;
+  top: 295px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 200px;
+  height: 40px;
+  left: 24px;
+  top: 430px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px 0;
+  list-style: none;
+}
+
+li {
+  margin-left: 17px;
+}
+
+.Illustration {
+  position: absolute;
+  width: 151.89px;
+  height: 367.03px;
+  left: 223.1px;
+  top: 317px;
+}
