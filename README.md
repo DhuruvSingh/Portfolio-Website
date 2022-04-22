@@ -5,24 +5,7 @@ Portfolio: setup and mobile version skeleton
 
 - HTML
 - CSS
-- Technologies used
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Linters
 
 ## Authors
 
