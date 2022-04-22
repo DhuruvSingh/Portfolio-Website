@@ -7,6 +7,15 @@ Portfolio: setup and mobile version skeleton
 - CSS
 - Linters
 
+## Getting started
+
+Go to https://dhuruvsingh.github.io/Portfolio-Website/
+
+1. Clone the project from the repo.
+2. Navigate to the project.
+3. You can run the project by either using a local server e.g using VSCODE's live server or by clicking directly onto the index.html file to open in your browser. 
+
+
 ## Authors
 
 👤 **Author**
