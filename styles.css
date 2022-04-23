@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, 'Crete Round';
 }
+
+/* Header section style start here */
 
 .logo {
   font-size: 18px;
@@ -133,6 +135,12 @@ li {
   left: 223.1px;
   top: 317px;
 }
+
+/* Header section style end start here */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Work section style start here */
 
 .work-section {
   position: absolute;
@@ -724,4 +732,336 @@ button {
   flex-grow: 0;
   margin: 12px 0;
   margin-left: 16px;
+}
+
+/* Work section style end here */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* About Me section style start here */
+
+.about-myself-section {
+  position: absolute;
+  width: 375px;
+  height: 1901px;
+  left: 0;
+  top: 4137px;
+  background: #1c1a19;
+}
+
+.about-me {
+  position: static;
+  width: 327px;
+  height: 79px;
+  left: 24px;
+  top: 120px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px;
+  margin-top: 120px;
+}
+
+.description {
+  position: static;
+  width: 327px;
+  height: 148px;
+  left: 24px;
+  top: 223px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px;
+}
+
+.get-resume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: static;
+  width: 161px;
+  height: 48px;
+  left: 24px;
+  top: 395px;
+  background: #ff6b00;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 24px;
+}
+
+.gr-btn-txt {
+  position: static;
+  width: 137px;
+  height: 24px;
+  left: 12px;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+}
+
+.black-line {
+  position: absolute;
+  height: 2px;
+  left: 18px;
+  right: 0;
+  top: calc(36% - 0px/ 2 + 0.5px);
+}
+
+.about-me-frame {
+  position: absolute;
+  width: 191.27px;
+  height: 278.7px;
+  left: 183.26999999999998px;
+  top: 384px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 328px;
+  height: 643px;
+  left: 80px;
+  top: 785.46px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 251px 17px;
+}
+
+.lang-knows1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 225.46px;
+  height: 281.46px;
+  left: 51.77px;
+  top: 120px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 122px;
+}
+
+.language {
+  position: static;
+  width: 164px;
+  height: 24px;
+  left: 49.46px;
+  top: 8.73px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 12px;
+}
+
+.lang-ul-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  position: static;
+  width: 186px;
+  height: 216px;
+  left: 19.73px;
+  top: 65.46px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0;
+}
+
+.lang-li-box1 {
+  position: static;
+  width: 79px;
+  height: 59px;
+  left: 0;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+}
+
+.lang-li-box2 {
+  position: static;
+  width: 105px;
+  height: 59px;
+  left: 0;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+}
+
+.lang-li-box2-ruby {
+  position: static;
+  width: 148px;
+  height: 59px;
+  left: 0;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 43px;
+}
+
+.lang-li-box3 {
+  position: static;
+  width: 79px;
+  height: 59px;
+  left: 0;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+}
+
+.lang-knows2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 225.46px;
+  height: 338.46px;
+  left: 51.77px;
+  top: 120px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 42px;
+}
+
+.frameworks {
+  position: static;
+  width: 205px;
+  height: 24px;
+  left: 49.46px;
+  top: 8.73px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 12px;
+}
+
+.lang-knows3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 225.46px;
+  height: 342px;
+  left: 51.77px;
+  top: 120px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 42px;
+}
+
+.skills {
+  position: static;
+  width: 123px;
+  height: 24px;
+  left: 49.46px;
+  top: 8.73px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 12px;
 }
