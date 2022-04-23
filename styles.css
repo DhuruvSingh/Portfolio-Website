@@ -161,7 +161,7 @@ li {
   height: 83px;
   left: 0;
   top: 0;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -197,7 +197,7 @@ li {
   height: 0;
   left: 0;
   top: 0;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -213,7 +213,7 @@ li {
   height: 147px;
   left: 0;
   top: 48px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -340,7 +340,7 @@ button {
   height: 24px;
   left: 12px;
   top: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -374,7 +374,7 @@ button {
   height: 81px;
   left: 16px;
   top: 84px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -394,7 +394,7 @@ button {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -497,7 +497,7 @@ button {
   height: 81px;
   left: 16px;
   top: 84px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -517,7 +517,7 @@ button {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -548,7 +548,7 @@ button {
   height: 81px;
   left: 16px;
   top: 84px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -568,7 +568,7 @@ button {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -599,7 +599,7 @@ button {
   height: 81px;
   left: 16px;
   top: 84px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -619,7 +619,7 @@ button {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -650,7 +650,7 @@ button {
   height: 81px;
   left: 16px;
   top: 84px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -670,7 +670,7 @@ button {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -701,7 +701,7 @@ button {
   height: 81px;
   left: 16px;
   top: 84px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -721,7 +721,7 @@ button {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -755,7 +755,7 @@ button {
   height: 79px;
   left: 24px;
   top: 120px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -775,7 +775,7 @@ button {
   height: 148px;
   left: 24px;
   top: 223px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -810,7 +810,7 @@ button {
   height: 24px;
   left: 12px;
   top: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -831,7 +831,7 @@ button {
   height: 2px;
   left: 18px;
   right: 0;
-  top: calc(36% - 0px/ 2 + 0.5px);
+  top: calc(36% - 0px / 2 + 0.5px);
 }
 
 .about-me-frame {
@@ -880,7 +880,7 @@ button {
   height: 24px;
   left: 49.46px;
   top: 8.73px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -916,7 +916,7 @@ button {
   height: 59px;
   left: 0;
   top: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -937,7 +937,7 @@ button {
   height: 59px;
   left: 0;
   top: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -958,7 +958,7 @@ button {
   height: 59px;
   left: 0;
   top: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -979,7 +979,7 @@ button {
   height: 59px;
   left: 0;
   top: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -1016,7 +1016,7 @@ button {
   height: 24px;
   left: 49.46px;
   top: 8.73px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1052,7 +1052,7 @@ button {
   height: 24px;
   left: 49.46px;
   top: 8.73px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1065,3 +1065,7 @@ button {
   flex-grow: 0;
   margin: 0 12px;
 }
+
+/* About Me section style start here */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
