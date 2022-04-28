@@ -1056,6 +1056,7 @@ li {
   left: 215.27px;
   top: 384px;
   background-image: url(./Image/about-me-frame.png);
+  background-repeat: no-repeat;
 }
 
 .get-resume:hover {
@@ -1065,6 +1066,6 @@ li {
   color: #f55800;
 }
 
-/* About Me section style start here */
+/* About Me section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
