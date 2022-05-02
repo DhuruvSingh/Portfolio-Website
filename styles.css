@@ -113,14 +113,14 @@ ul {
   align-items: center;
   padding: 0;
   position: static;
-  width: 200px;
+  width: 252px;
   height: 40px;
   left: 24px;
   top: 430px;
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 14px -17px;
   list-style: none;
 }
 
@@ -225,7 +225,7 @@ li {
   margin: 12px 0;
 }
 
-.tags {
+/* .tags {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -239,6 +239,15 @@ li {
   order: 2;
   flex-grow: 0;
   margin: 12px -17px;
+} */
+
+.tags {
+  float: left;
+  
+}
+
+.language-tags {
+  display: block;
 }
 
 .tag-1 {
@@ -462,12 +471,12 @@ li {
 
 .button-p-main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 12px;
   position: static;
-  width: 124px;
+  width: 124px; 
   height: 48px;
   left: 0;
   top: 259px;
@@ -475,7 +484,7 @@ li {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin-top: 22px;
+  margin-top: 80px;
   border: none;
   color: #fff;
   text-align: center;
@@ -1055,6 +1064,7 @@ li {
   height: 278.7px;
   left: 215.27px;
   top: 384px;
+  background-repeat: no-repeat;
   background-image: url(./Image/about-me-frame.png);
 }
 
