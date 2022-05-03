@@ -1065,6 +1065,7 @@ li {
   top: 384px;
   background-repeat: no-repeat;
   background-image: url(./Image/about-me-frame.png);
+  background-repeat: no-repeat;
 }
 
 .get-resume:hover {
