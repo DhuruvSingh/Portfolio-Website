@@ -1078,3 +1078,34 @@ li {
 /* About Me section style start here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 26px;
+  position: absolute;
+  width: 323px;
+  height: 844px;
+  left: 0px;
+  top: 6228px;
+}
+
+.contact-form h1 {
+  position: static;
+  width: 333px;
+  height: 216px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;  
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
