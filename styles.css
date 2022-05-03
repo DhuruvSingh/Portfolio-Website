@@ -113,14 +113,14 @@ ul {
   align-items: center;
   padding: 0;
   position: static;
-  width: 200px;
+  width: 252px;
   height: 40px;
   left: 24px;
   top: 430px;
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 14px -17px;
   list-style: none;
 }
 
@@ -225,7 +225,7 @@ li {
   margin: 12px 0;
 }
 
-.tags {
+/* .tags {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -239,6 +239,14 @@ li {
   order: 2;
   flex-grow: 0;
   margin: 12px -17px;
+} */
+
+.tags {
+  float: left;
+}
+
+.language-tags {
+  display: block;
 }
 
 .tag-1 {
@@ -462,7 +470,7 @@ li {
 
 .button-p-main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 12px;
@@ -475,7 +483,7 @@ li {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin-top: 22px;
+  margin-top: 80px;
   border: none;
   color: #fff;
   text-align: center;
@@ -1055,8 +1063,8 @@ li {
   height: 278.7px;
   left: 215.27px;
   top: 384px;
-  background-image: url(./Image/about-me-frame.png);
   background-repeat: no-repeat;
+  background-image: url(./Image/about-me-frame.png);
 }
 
 .get-resume:hover {
@@ -1067,5 +1075,176 @@ li {
 }
 
 /* About Me section style end here */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Contact Form section style starts here */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 26px;
+  position: absolute;
+  width: 323px;
+  height: 844px;
+  left: 0;
+  top: 6228px;
+}
+
+.contact-form h1 {
+  position: static;
+  width: 333px;
+  height: 216px;
+  left: 0;
+  top: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 327px;
+  height: 330px;
+  left: 24px;
+  top: 394px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 58px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 327px;
+  height: 330px;
+  left: 24px;
+  top: 394px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 58px 0;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 20px;
+  width: 327px;
+  height: 48px;
+}
+
+input[type=name],
+input[type=email] {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+textarea {
+  height: 114px;
+  width: 327px;
+  background: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+}
+
+textarea[name=message] {
+  color: #3c3a39;
+  padding-left: 16px;
+}
+
+form button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: static;
+  width: 131px;
+  height: 48px;
+  left: 0;
+  top: 259px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin-top: 10px;
+  border: none;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+form button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+  color: #f55800;
+}
+
+form button:active {
+  background: #e05304;
+  border: 1px solid #e05304;
+  box-sizing: border-box;
+  color: #f4f1f0;
+}
+
+footer {
+  position: absolute;
+  width: 375px;
+  height: 72px;
+  left: 0;
+  top: 1000px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 200px;
+  height: 40px;
+  left: 24px;
+  top: 430px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 17px 82px;
+  list-style: none;
+}
+
+/* Contact Form section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
