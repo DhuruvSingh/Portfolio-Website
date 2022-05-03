@@ -1164,3 +1164,43 @@ input[type=name], input[type=email] {
   font-size: 15px;
   line-height: 24px;
 }
+
+textarea {
+  height: 114px;
+  width: 327px;
+  background: #FBF8F7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+}
+
+textarea[name=message] {
+  color: #3C3A39;
+}
+
+form button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: static;
+  width: 131px;
+  height: 48px;
+  left: 0;
+  top: 259px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin-top: 10px;
+  border: none;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
