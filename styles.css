@@ -1204,3 +1204,43 @@ form button {
   font-size: 17px;
   font-weight: 700;
 }
+
+
+form button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+  color: #f55800;
+}
+
+form button:active {
+  background: #E05304;
+  border: 1px solid #E05304;
+  box-sizing: border-box;
+  color: #F4F1F0;
+}
+
+footer {
+  position: absolute;
+  width: 375px;
+  height: 72px;
+  left: 0px;
+  top: 1000px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 200px;
+  height: 40px;
+  left: 24px;
+  top: 430px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 17px 82px;
+  list-style: none;
+}
