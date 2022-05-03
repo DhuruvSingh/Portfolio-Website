@@ -1163,6 +1163,7 @@ input[type=name], input[type=email] {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+  padding-left: 16px;
 }
 
 textarea {
@@ -1179,6 +1180,7 @@ textarea {
 
 textarea[name=message] {
   color: #3C3A39;
+  padding-left: 16px;
 }
 
 form button {
