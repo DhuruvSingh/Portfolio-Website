@@ -1075,9 +1075,14 @@ li {
   color: #f55800;
 }
 
-/* About Me section style start here */
+/* About Me section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Contact Form section style starts here */
 
 .contact-form {
   display: flex;
@@ -1103,9 +1108,59 @@ li {
   font-size: 32px;
   line-height: 44px;  
   text-align: center;
-  color: #172b4d;
+  color: #172B4D;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 24px 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 327px;
+  height: 330px;
+  left: 24px;
+  top: 394px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 58px 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 327px;
+  height: 330px;
+  left: 24px;
+  top: 394px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 58px 0px;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #DBD8D7;
+  margin-bottom: 20px;
+  width: 327px;
+  height: 48px;
+}
+
+input[type=name], input[type=email] {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
