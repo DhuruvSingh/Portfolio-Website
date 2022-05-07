@@ -19,16 +19,19 @@ body::-webkit-scrollbar-thumb {
 /* Header section style start here */
 
 .logo {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 20px;
   text-align: center;
-  width: 77px;
-  height: 24px;
-  margin-top: 25px;
-  margin-bottom: 12px;
-  margin-left: 24px;
+  width: 116px;
+  height: 40px;
+  padding-top: 10px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  margin-left: 142px;
   color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
 }
 
 header {
@@ -52,6 +55,7 @@ header {
   justify-content: flex-end;
   height: 33px;
   color: #FFFFFF;
+  margin-right: 142px;
 }
 
 .front_sec {
@@ -141,7 +145,22 @@ ul {
 }
 
 li {
-  margin-left: 17px;
+  margin-left: 32px;
+}
+
+.nav-menu {
+  text-decoration: none;
+  color: white;
+}
+
+.navabar {
+  display: none;
+}
+
+li:hover {
+  border: 2px solid white;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .Illustration {
@@ -216,7 +235,7 @@ li {
 }
 
 .Img-Placeholder {
-  background: url(./Img-Placeholder.png);
+  background: url(./Desktop-images/Img-Placeholder.png);
   background-size: auto;
   position: static;
   width: 684px;
@@ -562,32 +581,31 @@ li {
 }
 
 .project-1:hover {
-  background-image: url(./Img_Placeholder.png);
-  
+  background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-2:hover {
-  background-image: url(./Img_Placeholder.png);
+  background-image: url(./Desktop-images/Img_Placeholder.png);
   
 }
 
 .project-3:hover {
-  background-image: url(./Img_Placeholder.png);
+  background-image: url(./Desktop-images/Img_Placeholder.png);
   
 }
 
 .project-4:hover {
-  background-image: url(./Img_Placeholder.png);
+  background-image: url(./Desktop-images/Img_Placeholder.png);
   
 }
 
 .project-5:hover {
-  background-image: url(./Img_Placeholder.png);
+  background-image: url(./Desktop-images/Img_Placeholder.png);
   
 }
 
 .project-6:hover {
-  background-image: url(./Img_Placeholder.png);
+  background-image: url(./Desktop-images/Img_Placeholder.png);
   
 }
 
@@ -1159,6 +1177,10 @@ li {
   /* background-image: url(); */
 }
 
+.about-me-frame-new {
+  display: none;
+}
+
 .get-resume:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
@@ -1661,7 +1683,7 @@ footer {
     width: 375px;
     align-items: flex-start;
     padding: 0px 24px;
-    height: 590px;
+    height: 493px;
     left: 0px;
     top: 92px;
   }
@@ -1701,8 +1723,8 @@ footer {
   }
   ul {
     display: flex;
-    left: 0px;
-    margin-top: 30px;
+    left: 10px;
+    margin-top: 43px;
   }
 
   .recent-work {
@@ -1713,14 +1735,14 @@ footer {
     position: absolute;
     display: grid;
     grid-template-columns: auto;
-    width: 375px;
+    width: 100%;
     height: auto;
     align-items: center;
-    padding: 120px 0;
+    padding: 52px 0;
     top: 662px;
     background-color: #fff;
     left: 0px;
-    border: solid;
+    justify-items: center;
   }
   .title {
     position: static;
@@ -1737,71 +1759,141 @@ footer {
   }
   .vector-line {
     position: static;
-    width: 327px;
+    width: 100%;
     height: 0;
-    left: 0;
+    left: 0px;
     top: 107px;
     border: 1px solid #212121;
-    margin-bottom: 80px;
+    margin-bottom: 79px;
+    margin-left: 0px;
   }
   .work-grid {
-    width: 375px;
+    width: 100%;
     height: 3038px;
+    left: 0px;
   }
 
   .feature-post {
     width: 100%;
     height: 568px;
-    left: -27px;
+    left: 0px;
     flex-direction: column;
-    border: solid;
+    align-items: center;
   }
   .Img-Placeholder {
     width: 327px;
-    height: 237px;
-    margin-left: 24px;
-  }
+    height: 216px;
+    margin-left: 0px;
+    background-size: cover;
+}
   .righ-block {
     width: 327px;
     height: 307px;
     left: 24px;
     margin: 24px 0px;
   }
-  ul {
-    margin-top: 12px;
-  }
   .card1 {
-    width: 375px;
+    width: 100%;
     height: 1218px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     bottom: 1200px;
-    border: solid;
-    left: -28.5px;
+    left: 0px;
   }
   .card2 {
-    width: 375px;
+    width: 100%;
     height: 1218px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     bottom: -21px;
-    border: solid;
-    left: -28.5px;
+    left: 0px;
   } 
   footer {
     top: 6886px;
   }
 
-  .contact-form {
-    top: 6038px;
-  }
-
   .about-myself-section {
     top: 4137px;
+    height: 1953px;
+  }
+
+  .about-me-sec {
+    left: 0px;
+    width: 97%;
+    height: 563px;
+    padding-left: 0px;
+    margin-left: 24px;
+  }
+
+  .about-me {
+    width: 327px;
+    height: 79px;
+    line-height: 88px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 24px;
+    width: 327px;
+    height: 148px;
+  }
+  .get-resume {
+    margin: 0px 0px;
+  }
+
+  .about-me-frame {
+    display: none;
+  }
+  .about-me-frame-new {
+    display: block;
+    position: sticky;
+    float: right;
+    margin-top: 434px;
+  }
+  .contact-form {
+    top: 6090px;
+    left: 0px;
+    width: 100%;
+    flex-direction: column;
+    height: 884px;
+  }
+  .contact-form h1 {
+    width: 327px;
+    font-size: 32px;
+    height: 215px;
+    line-height: 44px;
+ }
+  .black-line {
+    width: -webkit-fill-available;
+    left: 76px;
+    right: 76px;
+    top: 707px;
+  }
+  .skill {
+    left: 81px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 329px;
+    top: 711px;
+    height: 1241px;
+    top: 712px;
+    bottom: 0px;
+  }
+  .skills-main {
+    display: flex;
+    height: 1241px;
+    margin-top: 711px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  footer {
+    top: 6978px;
   }
 
   .project-1 {
@@ -1821,6 +1913,7 @@ footer {
   .project-1 > h1 {
     width: 295px;
     height: 81px;
+    margin-top: 60px;
   }
   .project-1 > p {
     width: 295px;
@@ -1881,14 +1974,22 @@ footer {
     height: 81px;
   }
   .tags {
-    margin-left: 16px;
+    padding-left: 16px;
+    margin-top: 20px;
   }
   .button-p {
     width: 327px;
     margin-top: 63px;
-}
+  }
+  .nav-icon {
+    display: none;
+  }
+  .navabar {
+    display: block;
+    margin-right: 20px;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
-  
 }
