@@ -149,6 +149,9 @@ li {
   float: right;
 }
 
+.Illustration-mob {
+  display: none;
+}
 /* Header section style end start here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -157,7 +160,7 @@ li {
 
 .work-section {
   display: flex;
-  padding: 130px 24px;
+  padding: 130px 0px;
   position: absolute;
   width: 1204px;
   height: 1540px;
@@ -1344,3 +1347,548 @@ footer {
 /* Contact Form section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Mobile Media query section starts here */
+
+
+@media only screen and (max-width: 1180px) {
+  .Illustration {
+    height: 610px;
+    width: 304px;
+  }
+  .recent-work {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-post{
+    width: 935px;
+    height: 356px;
+    left: -100px;
+  }
+  .Img-Placeholder {
+    background-size: contain;
+    width: 546px;
+    height: 349px;
+  }
+  .title-post {
+    width: 327px;
+    height: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .tag-1 {
+    margin-left: 0px;
+    margin-right: 17px;
+  }
+
+  .work-grid {
+    width: 831px;
+  }
+
+  .card1 {
+    width: 900px;
+    height: 448px;
+    left: -101.5px;
+  }
+  .card2 {
+    width: 900px;
+    height: 448px;
+    left: -101.5px;
+  }
+  .work-section {
+    width: 912px;
+    left: 84px;
+  }
+
+  .about-me-frame {
+    height: 307px;
+    width: 334px;
+  }
+
+  .about-me-sec {
+    left: 46px;
+  }
+  
+  .black-line {
+    width: 948px;
+    left: 48px;
+  }
+  .skill {
+    left: -59px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 1085.46px;
+  }
+  .contact-form {
+    left: 0px;
+    height: 584px;
+    width: 1026px;
+    justify-content: space-around;
+  }
+  .contact-form h1 {
+    width: 327px;
+  }
+  
+  input {
+    width: 240px;
+  }
+  textarea {
+    width: 500px;
+  }
+
+  form {
+    width: 540px;
+  }
+  .form {
+    margin: 0px 0px;
+    width: 524px;
+  }
+}
+
+
+@media only screen and (max-width: 880px) {
+  section {
+    width: 451px;
+    align-items: flex-start;
+  }
+  h1 {
+    width: 444px;
+  }
+  p {
+    width: 444px;
+  }
+  .vector-line{
+    width: 664px;
+  }
+  .Illustration {
+    height: 610px;
+    width: 304px;
+  }
+  .recent-work {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-post{
+    width: 773px;
+    height: 317px;
+    left: -28px;
+  }
+
+  .project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
+    width: 247px;
+    height: 294px;
+  }
+  .button-p {
+    width: 247px;
+    margin-top: 19px;
+
+  }
+
+  .tag-p1 {
+    margin-left: 0px;
+  }
+  
+  .project-1 > h4 {
+    width: 223px;
+    margin-top: 10px;
+  }
+  .project-1 > p {
+    width: 223px;
+    margin-bottom: 45px;
+  }
+  .project-2 > h4 {
+    width: 233px;
+    margin-top: 10px;
+  }
+  .project-2 > p {
+    width: 223px;
+    margin-bottom: 45px;
+  }
+  .project-3 > h4 {
+    width: 223px;
+    margin-top: 10px;
+  }
+  .project-3 > p {
+    width: 223px;
+    margin-bottom: 45px;
+  }
+
+  .project-4 > h4 {
+    width: 223px;
+    margin-top: 10px;
+  }
+  .project-4 > p {
+    width: 223px;
+    margin-bottom: 45px;
+  }
+  .project-5 > h4 {
+    width: 233px;
+    margin-top: 10px;
+  }
+  .project-5 > p {
+    width: 223px;
+    margin-bottom: 45px;
+  }
+  .project-6 > h4 {
+    width: 223px;
+    margin-top: 10px;
+  }
+  .project-6 > p {
+    width: 223px;
+    margin-bottom: 45px;
+  }
+
+  .supporting-text {
+    margin: 0px 0;
+  }
+  .Img-Placeholder {
+    background-size: contain;
+    width: 409px;
+    height: 319px;
+  }
+  .title-post {
+    width: 327px;
+    height: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .tag-1 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .tag-2, .tag-3, .tag-4 {
+    margin-right: 0px;
+    margin-left: 17px;
+  }
+
+  .work-grid {
+    width: 724px;
+  }
+
+  .card1 {
+    width: 756px;
+    height: 584px;
+    left: -44.5px;
+  }
+  .card2 {
+    width: 756px;
+    height: 674px;
+    left: -44.5px;
+}
+  .work-section {
+    width: 781px;
+    left: 46px;
+    height: 1217px;
+  }
+  .about-myself-section {
+    top: 2370px;
+  }
+  .description {
+    width: 445px;
+  }
+  .about-me-frame {
+    height: 259px;
+    width: 250px;
+  }
+
+  .about-me-sec {
+    left: 46px;
+  }
+  
+  .black-line {
+    width: 773px;
+    left: 48px;
+  }
+  .skill {
+    left: -59px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 921.46px;
+  }
+  .contact-form {
+    left: 33px;
+    height: 596px;
+    width: 785px;
+    justify-content: space-around;
+    top: 3565px;
+  }
+  .contact-form h1 {
+    width: 327px;
+    font-size: 30px;
+  }
+  
+  .tags {
+    width: 253px;
+  }
+  input {
+    width: 240px;
+  }
+  textarea {
+    width: 240px;
+  }
+
+  form {
+    width: 268px;
+  }
+  .form {
+    margin: 0px 0px;
+    width: 273px;
+  }
+  footer {
+    top: 4086px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .Illustration {
+    display: none;
+  }
+  .Illustration-mob {
+    display: block;
+    position: sticky;
+    float: right;
+    top: 200px;
+  }
+
+  .front_sec {
+    height: 590px;
+  }
+  section {
+    width: 375px;
+    align-items: flex-start;
+    padding: 0px 24px;
+    height: 590px;
+    left: 0px;
+    top: 92px;
+  }
+  h1 {
+    width: 327px;
+    height: 124px;
+    left: 24px;
+    top: 120px;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    margin: 12px 0;
+  }
+
+  h6 {
+    width: 327px;
+    height: 27px;
+    left: 24px;
+    top: 256px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 12px 0px;
+  }
+  p {
+    width: 327px;
+    height: 123px;
+    left: 24px;
+    top: 295px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 12px 0;
+  }
+  ul {
+    display: flex;
+    left: 0px;
+    margin-top: 30px;
+  }
+
+  .recent-work {
+    display: block;
+    
+  }
+  .work-section {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto;
+    width: 375px;
+    height: auto;
+    align-items: center;
+    padding: 120px 0;
+    top: 662px;
+    background-color: #fff;
+    left: 0px;
+    border: solid;
+  }
+  .title {
+    position: static;
+    width: 327px;
+    height: 83px;
+    left: 0;
+    top: 0;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1c1a19;
+  }
+  .vector-line {
+    position: static;
+    width: 327px;
+    height: 0;
+    left: 0;
+    top: 107px;
+    border: 1px solid #212121;
+    margin-bottom: 80px;
+  }
+  .work-grid {
+    width: 375px;
+    height: 3038px;
+  }
+
+  .feature-post {
+    width: 100%;
+    height: 568px;
+    left: -27px;
+    flex-direction: column;
+    border: solid;
+  }
+  .Img-Placeholder {
+    width: 327px;
+    height: 237px;
+    margin-left: 24px;
+  }
+  .righ-block {
+    width: 327px;
+    height: 307px;
+    left: 24px;
+    margin: 24px 0px;
+  }
+  ul {
+    margin-top: 12px;
+  }
+  .card1 {
+    width: 375px;
+    height: 1218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    bottom: 1200px;
+    border: solid;
+    left: -28.5px;
+  }
+  .card2 {
+    width: 375px;
+    height: 1218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    bottom: -21px;
+    border: solid;
+    left: -28.5px;
+  } 
+  footer {
+    top: 6886px;
+  }
+
+  .contact-form {
+    top: 6038px;
+  }
+
+  .about-myself-section {
+    top: 4137px;
+  }
+
+  .project-1 {
+    width: 327px;
+    height: 386px;
+  }
+  .project-2 {
+    width: 327px;
+    height: 386px;
+    top: 410px;
+  }
+  .project-3 {
+    width: 327px;
+    height: 386px;
+    top: 820px;
+  }
+  .project-1 > h1 {
+    width: 295px;
+    height: 81px;
+  }
+  .project-1 > p {
+    width: 295px;
+    height: 87px;
+  }
+  .project-2 > p {
+    width: 295px;
+    height: 87px;
+  }
+  .project-2 > h1 {
+    width: 295px;
+    height: 81px;
+  }
+  .project-3 > p {
+    width: 295px;
+    height: 87px;
+  }
+  .project-3 > h1 {
+    width: 295px;
+    height: 81px;
+  }
+  .project-4 {
+    width: 327px;
+    height: 386px;
+  }
+  .project-5 {
+    width: 327px;
+    height: 386px;
+    top: 410px;
+  }
+  .project-6 {
+    width: 327px;
+    height: 386px;
+    top: 820px;
+  }
+  .project-4 > h1 {
+    width: 295px;
+    height: 81px;
+  }
+  .project-4 > p {
+    width: 295px;
+    height: 87px;
+  }
+  .project-5 > p {
+    width: 295px;
+    height: 87px;
+  }
+  .project-5 > h1 {
+    width: 295px;
+    height: 81px;
+  }
+  .project-6 > p {
+    width: 295px;
+    height: 87px;
+  }
+  .project-6 > h1 {
+    width: 295px;
+    height: 81px;
+  }
+  .tags {
+    margin-left: 16px;
+  }
+  .button-p {
+    width: 327px;
+    margin-top: 63px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
