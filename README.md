@@ -9,7 +9,7 @@ Portfolio: setup and mobile version skeleton
 
 ## Getting started
 
-Go to https://dhuruvsingh.github.io/Portfolio-Website/
+Go to [View Demo](https://dhuruvsingh.github.io/Portfolio-Website/)
 
 1. Clone the project from the repo.
 2. Navigate to the project.
