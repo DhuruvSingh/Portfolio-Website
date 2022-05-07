@@ -146,7 +146,7 @@ ul {
 }
 
 li {
-  margin-left: 32px;
+  margin-left: 0;
 }
 
 .nav-menu {
@@ -473,9 +473,9 @@ li:hover {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-right: -8px;
+  margin-right: 16px;
   color: white;
-  margin-left: 32px;
+  margin-left: 16px;
 }
 
 .tag-p2 {
@@ -493,7 +493,7 @@ li:hover {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin-right: -8px;
+  margin-right: 16px;
   color: white;
 }
 
@@ -512,12 +512,12 @@ li:hover {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin-right: -8px;
+  margin-right: 16px;
   color: white;
 }
 
 .button-p {
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   padding: 12px;
@@ -937,7 +937,7 @@ li:hover {
 .lang-knows1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 0;
   position: static;
   width: 225.46px;
@@ -973,7 +973,7 @@ li:hover {
 .lang-ul-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 0 12px;
   position: static;
   width: 186px;
@@ -1046,7 +1046,7 @@ li:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: 43px;
+  margin-left: 0;
 }
 
 .lang-li-box3 {
@@ -1073,7 +1073,7 @@ li:hover {
 .lang-knows2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 0;
   position: static;
   width: 225.46px;
@@ -1109,7 +1109,7 @@ li:hover {
 .lang-knows3 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 0;
   position: static;
   width: 225.46px;
@@ -1182,13 +1182,7 @@ li:hover {
 }
 
 .contact-form h1 {
-  display: flex;
-  align-items: center;
-  position: static;
-  width: 455px;
-  height: 256px;
-  left: 0;
-  top: 0;
+  display: contents;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
