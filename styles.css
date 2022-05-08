@@ -33,6 +33,11 @@ body::-webkit-scrollbar-thumb {
   color: white;
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  transition-delay: 1s;
+}
+
+.logo:hover {
+  transform: rotate(314deg);
 }
 
 header {
@@ -256,6 +261,10 @@ li:hover {
   flex: none;
   flex-grow: 0;
   background-repeat: no-repeat;
+}
+
+.Img-Placeholder:hover {
+  transform: scale(1.05);
 }
 
 .righ-block {
@@ -586,6 +595,7 @@ li:hover {
 }
 
 .button-p-main:hover {
+  transform: translate(32px, 13px);
   background: #fff5e1;
   border: 1px solid #f55800;
   box-sizing: border-box;
@@ -1167,6 +1177,7 @@ li:hover {
 }
 
 .get-resume:hover {
+  transform: translate(32px, 13px);
   background: #fff5e1;
   border: 1px solid #f55800;
   box-sizing: border-box;
@@ -1302,6 +1313,7 @@ form button {
 }
 
 form button:hover {
+  transform: translate(32px, 13px);
   background: #fff5e1;
   border: 1px solid #f55800;
   box-sizing: border-box;
@@ -1760,26 +1772,32 @@ footer {
 }
 
 .project-1:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-2:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-3:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-4:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-5:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-6:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
