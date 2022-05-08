@@ -595,6 +595,7 @@ li:hover {
 }
 
 .button-p-main:hover {
+  transform: translate(32px, 13px);
   background: #fff5e1;
   border: 1px solid #f55800;
   box-sizing: border-box;
@@ -1176,6 +1177,7 @@ li:hover {
 }
 
 .get-resume:hover {
+  transform: translate(32px, 13px);
   background: #fff5e1;
   border: 1px solid #f55800;
   box-sizing: border-box;
@@ -1311,6 +1313,7 @@ form button {
 }
 
 form button:hover {
+  transform: translate(32px, 13px);
   background: #fff5e1;
   border: 1px solid #f55800;
   box-sizing: border-box;
