@@ -258,6 +258,10 @@ li:hover {
   background-repeat: no-repeat;
 }
 
+.Img-Placeholder:hover {
+  transform: scale(1.05);
+}
+
 .righ-block {
   display: flex;
   flex-direction: column;
