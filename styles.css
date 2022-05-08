@@ -1772,26 +1772,32 @@ footer {
 }
 
 .project-1:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-2:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-3:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-4:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-5:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
 .project-6:hover {
+  transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
 
