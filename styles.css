@@ -173,6 +173,9 @@ li:hover {
 .Illustration {
   position: sticky;
   float: right;
+  width: 50%;
+  height: auto;
+  margin-top: 10%;
 }
 
 .Illustration-mob {
