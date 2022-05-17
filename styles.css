@@ -173,6 +173,9 @@ li:hover {
 
 .Illustration {
   position: sticky;
+  width: 40%;
+  top: auto;
+  margin-top: 10%;
   float: right;
 }
 
@@ -286,9 +289,9 @@ li:hover {
   position: absolute;
   width: 100%;
   height: 448px;
-  left: 0;
+  left: 50px;
   top: 0;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .title-post {
@@ -1362,6 +1365,10 @@ footer {
   justify-content: center;
 }
 
+hr {
+  display: none;
+}
+
 /* Contact Form section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -1822,7 +1829,8 @@ footer {
   }
 
   hr {
-    width: 327px;
+    display: block;
+    width: 90%;
     height: 1px;
     left: 0px;
     right: 0px;
