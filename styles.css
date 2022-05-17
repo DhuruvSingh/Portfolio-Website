@@ -1785,6 +1785,7 @@ footer {
     border: #3c3a39 solid 1px;
     background: #3c3a39;
     cursor: pointer;
+    color: white;
   }
 
   .closeIcon {
