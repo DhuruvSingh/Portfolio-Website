@@ -1620,7 +1620,7 @@ hr {
   }
 
   .black-line {
-    width: -webkit-fill-available;
+    width: 100%;
     left: 76px;
     right: 76px;
     top: 707px;
