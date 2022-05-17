@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb {
 
 header {
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: space-between;
   left: 0;
   right: 0;
@@ -52,6 +52,7 @@ header {
   height: 72px;
   background-color: #3c3a39;
   flex-direction: row;
+  z-index: 100;
 }
 
 .nav-icon {
@@ -1781,8 +1782,8 @@ footer {
     top: 1rem;
     right: 1rem;
     padding: 4px;
-    border: black solid 1px;
-    background: white;
+    border: #3c3a39 solid 1px;
+    background: #3c3a39;
     cursor: pointer;
   }
 
@@ -1791,18 +1792,45 @@ footer {
   }
 
   .menu {
+    display: flex;
     position: fixed;
+    flex-direction: column;
     transform: translateY(-100%);
     transition: transform 0.2s;
-    top: 0;
+    width: 100%;
+    height: 100%;
+    top: -111px;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: black;
+    background: #3C3A39;
     color: white;
     list-style: none;
-    padding-top: 4rem;
+    padding-top: 154px;
+    overflow-x: hidden;
+    justify-content: flex-start;
+  }
+
+  .menuItem {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  hr {
+    width: 327px;
+    height: 1px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #6F6C6B;
+  }
+
+  .li-none {
+    display: none;
   }
 
   .showMenu {

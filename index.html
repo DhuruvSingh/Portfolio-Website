@@ -8,7 +8,6 @@
     <title>Portfolio Website</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -17,15 +16,18 @@
         <nav>
             <ul class="menu nav-icon">
                 <li>
-                    <a class="menuItem nav-menu" href="#">Portfolio</a>
+                    <a class="menuItem nav-menu" href="#portfolio">Portfolio</a>
+                    <hr>
                 </li>
                 <li>
-                    <a class="menuItem nav-menu" href="#">About</a>
+                    <a class="menuItem nav-menu" href="#About">About</a>
+                    <hr>
                 </li>
                 <li>
-                    <a class="menuItem nav-menu" href="#">Contact</a>
+                    <a class="menuItem nav-menu" href="#Contact">Contact</a>
+                    <hr>
                 </li>
-                <li>
+                <li class="li-none">
                     <a href="mailto:dhuruvs096@gmail.com"><img src="./Desktop-images/Icon_Mail.png" alt="mail icon"></a>
                 </li>
             </ul>
@@ -77,7 +79,7 @@
                 </li>
             </ul>
         </div>
-        <div class="work-section">
+        <div class="work-section" id="portfolio">
             <div class="recent-work">
                 <h1 class="title">My Recent Works</h1>
                 <img class="vector-line" src="./Icons/Vector.png" alt="Black line">
@@ -197,7 +199,7 @@
 
             </div>
         </div>
-        <div class="about-myself-section">
+        <div class="about-myself-section" id="About">
             <div class="about-me-sec">
                 <h1 class="about-me">About Me</h1>
                 <p class="description">Hello I’m a software developer! I can help you build a product , feature or
@@ -251,7 +253,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact-form">
+        <div class="contact-form" id="Contact">
             <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
             <div class="form">
                 <form action="https://formspree.io/f/xeqnpraa" method="POST">
@@ -293,6 +295,7 @@
                 </li>
             </ul>
         </footer>
+        <script src="./script.js"></script>
     </main>
 </body>
 
