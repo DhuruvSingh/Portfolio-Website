@@ -1812,7 +1812,7 @@ hr {
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: #3C3A39;
+    background: #3c3a39;
     color: white;
     list-style: none;
     padding-top: 154px;
@@ -1832,10 +1832,10 @@ hr {
     display: block;
     width: 90%;
     height: 1px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background: #6F6C6B;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #6f6c6b;
   }
 
   .li-none {
