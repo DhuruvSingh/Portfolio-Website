@@ -177,6 +177,9 @@ li:hover {
   top: auto;
   margin-top: 10%;
   float: right;
+  width: 50%;
+  height: auto;
+  margin-top: 10%;
 }
 
 .Illustration-mob {
