@@ -1399,7 +1399,7 @@ hr {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  padding-top: 8%;
+  padding-top: 3%;
 }
 
 .modal-header .close-button {
@@ -1415,9 +1415,8 @@ hr {
 .modal-body {
   padding: 10px 15px;
   display: flex;
+  align-items: flex-start;
   flex-direction: column-reverse;
-  flex-direction: column;
-  align-items: center;
 }
 
 #overlay {
@@ -1548,11 +1547,20 @@ hr {
     flex-direction: column;
     align-items: center;
   }
+  .model-btn {
+    width: 0%;
+  }
 
   .model-button-p-main {
     width: 115px;
     margin-top: 18%;
+    margin-right: 19px;
   }
+
+  .modal-body {
+    align-items: center;
+    flex-direction: column;
+}
 
   .title {
     position: static;
@@ -1571,6 +1579,7 @@ hr {
   .modal-header .title {
     font-size: 27px;
     line-height: 24px;
+    padding-top: 8%;
   }
 
   .model-tag {
