@@ -555,7 +555,7 @@ li:hover {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin-top: 0px;
+  margin-top: 0;
   border: none;
   justify-content: center;
   color: #fff;
@@ -2013,7 +2013,7 @@ hr {
   .button-p {
     display: block;
     width: 327px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .nav-icon {
@@ -2088,9 +2088,6 @@ hr {
   .showMenu {
     transform: translateY(0);
   }
-
-
-
 }
 
 .project-1:hover {
