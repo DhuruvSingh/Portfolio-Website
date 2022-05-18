@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Dhuruv Portfolio Website</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -13,22 +14,28 @@
     <header>
         <a class="logo">Dhuruv</a>
         <nav>
-            <ul class="nav-icon">
+            <ul class="menu nav-icon">
                 <li>
-                    <a class="nav-menu" href="#">Portfolio</a>
+                    <a class="menuItem nav-menu" href="#portfolio">Portfolio</a>
+                    <hr>
                 </li>
                 <li>
-                    <a class="nav-menu" href="#">About</a>
+                    <a class="menuItem nav-menu" href="#About">About</a>
+                    <hr>
                 </li>
                 <li>
-                    <a class="nav-menu" href="#">Contact</a>
+                    <a class="menuItem nav-menu" href="#Contact">Contact</a>
+                    <hr>
                 </li>
-                <li>
+                <li class="li-none">
                     <a href="mailto:dhuruvs096@gmail.com"><img src="./Desktop-images/Icon_Mail.png" alt="mail icon"></a>
                 </li>
             </ul>
+            <button class="hamburger">
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+              </button>
         </nav>
-        <img class="navabar" src="./Icons/Enabled.png" alt="">
     </header>
     <main>
         <div class="front_sec">
@@ -72,7 +79,7 @@
                 </li>
             </ul>
         </div>
-        <div class="work-section">
+        <div class="work-section" id="portfolio">
             <div class="recent-work">
                 <h1 class="title">My Recent Works</h1>
                 <img class="vector-line" src="./Icons/Vector.png" alt="Black line">
@@ -192,7 +199,7 @@
 
             </div>
         </div>
-        <div class="about-myself-section">
+        <div class="about-myself-section" id="About">
             <div class="about-me-sec">
                 <h1 class="about-me">About Me</h1>
                 <p class="description">Hello I’m a software developer! I can help you build a product , feature or
@@ -246,7 +253,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact-form">
+        <div class="contact-form" id="Contact">
             <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
             <div class="form">
                 <form action="https://formspree.io/f/xeqnpraa" method="POST">
@@ -288,6 +295,7 @@
                 </li>
             </ul>
         </footer>
+        <script src="./script.js"></script>
     </main>
 </body>
 

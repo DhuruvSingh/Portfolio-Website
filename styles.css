@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb {
 
 header {
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: space-between;
   left: 0;
   right: 0;
@@ -52,6 +52,7 @@ header {
   height: 72px;
   background-color: #3c3a39;
   flex-direction: row;
+  z-index: 100;
 }
 
 .nav-icon {
@@ -172,8 +173,9 @@ li:hover {
 
 .Illustration {
   position: sticky;
+  width: 40%;
+  top: auto;
   float: right;
-  width: 50%;
   height: auto;
   margin-top: 10%;
 }
@@ -288,9 +290,9 @@ li:hover {
   position: absolute;
   width: 100%;
   height: 448px;
-  left: 0;
+  left: 50px;
   top: 0;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .title-post {
@@ -1187,6 +1189,10 @@ li:hover {
   color: #f55800;
 }
 
+.hamburger {
+  display: none;
+}
+
 /* About Me section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -1358,6 +1364,10 @@ footer {
   margin: 17px 82px;
   list-style: none;
   justify-content: center;
+}
+
+hr {
+  display: none;
 }
 
 /* Contact Form section style end here */
@@ -1610,7 +1620,7 @@ footer {
   }
 
   .black-line {
-    width: -webkit-fill-available;
+    width: 60%;
     left: 76px;
     right: 76px;
     top: 707px;
@@ -1771,6 +1781,70 @@ footer {
   .navabar {
     display: block;
     margin-right: 20px;
+  }
+
+  .hamburger {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: #3c3a39 solid 1px;
+    background: #3c3a39;
+    cursor: pointer;
+    color: white;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    width: 100%;
+    height: 100%;
+    top: -111px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #3c3a39;
+    color: white;
+    list-style: none;
+    padding-top: 154px;
+    overflow-x: hidden;
+    justify-content: flex-start;
+  }
+
+  .menuItem {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  hr {
+    display: block;
+    width: 90%;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #6f6c6b;
+  }
+
+  .li-none {
+    display: none;
+  }
+
+  .showMenu {
+    transform: translateY(0);
   }
 }
 
