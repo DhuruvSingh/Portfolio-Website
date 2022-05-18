@@ -1532,8 +1532,6 @@ hr {
   width: 100%;
 }
 
-
-
 /* Contact Form section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -1547,6 +1545,7 @@ hr {
     flex-direction: column;
     align-items: center;
   }
+
   .model-btn {
     width: 0%;
   }
@@ -1560,7 +1559,7 @@ hr {
   .modal-body {
     align-items: center;
     flex-direction: column;
-}
+  }
 
   .title {
     position: static;
