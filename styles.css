@@ -1626,7 +1626,7 @@ hr {
   }
 
   .model-Img-Placeholder {
-    width: 35vh;
+    width: 40vh;
     height: 25vh;
   }
 
@@ -1789,7 +1789,7 @@ hr {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    bottom: -21px;
+    bottom: -100px;
     left: 0;
   }
 
@@ -2011,8 +2011,9 @@ hr {
   }
 
   .button-p {
+    display: block;
     width: 327px;
-    margin-top: 63px;
+    margin-top: 0px;
   }
 
   .nav-icon {
@@ -2087,10 +2088,12 @@ hr {
   .showMenu {
     transform: translateY(0);
   }
+
+
+
 }
 
-.project-1  :hover {
-  display: block;
+.project-1:hover {
   transform: translate(32px, 13px);
   background-image: url(./Desktop-images/Img_Placeholder.png);
 }
