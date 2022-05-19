@@ -54,3 +54,53 @@ function closeModal(modal) {
   modal.classList.remove('active');
   overlay.classList.remove('active');
 }
+
+const projects = [{
+  name: "Profesional Art Printing Data",
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  image: "./Image/project-bg-img.png",
+  technologies: ["HTML", "JavaScript", "Ruby"],
+  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+},
+{
+  name: "Data Dashboard Healthcare",
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  image: "./Image/project-bg-img.png",
+  technologies: ["HTML", "JavaScript", "Ruby"],
+  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+},
+{
+  name: "Website Protfolio",
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  image: "./Image/project-bg-img.png",
+  technologies: ["HTML", "JavaScript", "Ruby"],
+  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+},
+{
+  name: "Profesional Art Printing Data",
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  image: "./Image/project-bg-img.png",
+  technologies: ["HTML", "JavaScript", "Ruby"],
+  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+},
+{
+  name: "Data Dashboard Healthcare",
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  image: "./Image/project-bg-img.png",
+  technologies: ["HTML", "JavaScript", "Ruby"],
+  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+},
+{
+  name: "Website Protfolio",
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  image: "./Image/project-bg-img.png",
+  technologies: ["HTML", "JavaScript", "Ruby"],
+  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+},]
+
+const projectOne = document.querySelectorAll('.project-1-btn');
+const projectTwo = document.querySelectorAll('.project-2-btn');
+const projectThree = document.querySelectorAll('.project-3-btn');
+const projectFour = document.querySelectorAll('.project-4-btn');
+const projectFive = document.querySelectorAll('.project-5-btn');
+const projectSix = document.querySelectorAll('.project-6-btn');
