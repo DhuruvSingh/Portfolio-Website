@@ -54,3 +54,35 @@ function closeModal(modal) {
   modal.classList.remove('active');
   overlay.classList.remove('active');
 }
+
+const projects = [{
+  name: "Title of Project 1",
+  description: "Description of project 1",
+  image: "link_to_image.jpg",
+  technologies: ["HTML", "JavaScript", "Ruby"],
+  link: "link_to_live_version.com",
+}]
+
+
+
+
+const submitButton = document.getElementById("send-button");
+submitButton.addEventListener("click", formSubmit);
+
+function formSubmit(event) {
+  const userName = document.getElementById("fullname").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("msg").value;
+  event.preventDefault();
+  if (email !== email.toLowerCase()) {
+    document.getElementById("error").classList.add("show-error");
+  } else {
+    const userData = JSON.stringify({
+      userName: userName,
+      email: email,
+      message: message,
+    });
+    window.localStorage.setItem("userData", userData);
+    document.getElementById("contact").reset();
+  }
+}                      

@@ -1532,6 +1532,31 @@ hr {
   width: 100%;
 }
 
+.show-error {
+  display: block !important;
+}
+
+.error {
+  display: none;
+  width: 98%;
+  background: #ff6b00;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+  /* 
+  width: 100%;
+  background: #f00;
+  color: #fff;
+  border-radius: 4px;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 600; */
+}
+
 /* Contact Form section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */

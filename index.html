@@ -229,8 +229,7 @@
                         <button data-modal-target="#modal" class="button-p" type="button"><span class="see-project">See Project</span></button>
                     </div>
                 </div>
-
-            </div>
+            </div>                                                                                                                      
         </div>
         <div class="about-myself-section" id="About">
             <div class="about-me-sec">
@@ -290,12 +289,13 @@
             <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
             <div class="form">
                 <form action="https://formspree.io/f/xeqnpraa" method="POST">
-                    <input type="text" name="name" maxlength="30" placeholder="Full Name" required>
-                    <input type="email" name="email" placeholder="Email Address" required>
-                    <textarea name="message" maxlength="500" cols="19" rows="10" placeholder="Enter Text Here"
+                    <input id="fullname" type="text" name="name" maxlength="30" placeholder="Full Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    <textarea id="msg" name="message" maxlength="500" cols="19" rows="10" placeholder="Enter Text Here"
                         required></textarea>
                     <br>
-                    <button type="submit">Get In Touch</button>
+                    <button type="submit" class="send-button" id="send-button">Get In Touch</button>
+                    <div class="error" id="error">Email Should Be In Lowercase</div>
                 </form>
             </div>
         </div>
