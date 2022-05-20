@@ -326,3 +326,13 @@ openModalButtons.forEach((button) => {
     }
   });
 });
+
+function populateStorage() {
+  contact.name = titleMob.value;
+  contact.email = emailMob.value;
+  contact.msg = msgMob.value;
+  const storeData = JSON.stringify(contact);
+  localStorage.setItem('data', storeData);
+
+  populateContactForm();
+}
