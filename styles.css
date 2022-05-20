@@ -1451,6 +1451,12 @@ hr {
   height: 300px;
 }
 
+.pimage {
+  position: absolute;
+  height: 300px;
+  width: 52%;
+}
+
 .model-project-left {
   width: 43%;
   display: flex;
@@ -1626,6 +1632,11 @@ hr {
   }
 
   .model-Img-Placeholder {
+    width: 40vh;
+    height: 25vh;
+  }
+
+  .pimage {
     width: 40vh;
     height: 25vh;
   }
