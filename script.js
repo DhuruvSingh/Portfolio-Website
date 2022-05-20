@@ -341,9 +341,9 @@ function formSubmit(event) {
     document.getElementById('error').classList.add('show-error');
   } else {
     const userData = JSON.stringify({
-      "userName": userName,
-      "email": email,
-      "message": message,
+      'userName': userName,
+      'email': email,
+      'message': message,
     });
     window.localStorage.setItem('userData', userData);
     document.getElementById('contact').reset();
