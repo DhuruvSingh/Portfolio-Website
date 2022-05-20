@@ -23,15 +23,14 @@ const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
 
 openModalButtons.forEach((button) => {
-  button.addEventListener('click', (event) => {
+  button.addEventListener('click', () => {
     const modal = document.querySelector(button.dataset.modalTarget);
     openModal(modal);
   });
 });
 
-overlay.addEventListener('click', (event) => {
+overlay.addEventListener('click', () => {
   const modals = document.querySelectorAll('.modal.active');
-  console.log(event.target)
   modals.forEach((modal) => {
     closeModal(modal);
   });
@@ -57,52 +56,53 @@ function closeModal(modal) {
 }
 
 const projects = [{
-  name: "Profesional Art Printing Data",
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  name: 'Profesional Art Printing Data',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
   image: "./Image/project-bg-img.png",
-  technologies: ["HTML", "Bootstrap", "Ruby"],
-  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+  technologies: ['HTML', 'Bootstrap', 'Ruby'],
+  link: 'https://dhuruvsingh.github.io/Portfolio-Website/',
 },
 {
-  name: "Data Dashboard Healthcare",
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  name: 'Data Dashboard Healthcare',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
   image: "./Image/project-bg-img.png",
-  technologies: ["HTML", "Bootstrap", "Ruby"],
-  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+  technologies: ['HTML', 'Bootstrap', 'Ruby'],
+  link: 'https://dhuruvsingh.github.io/Portfolio-Website/',
 },
 {
-  name: "Website Protfolio",
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  name: 'Website Protfolio',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
   image: "./Image/project-bg-img.png",
-  technologies: ["HTML", "Bootstrap", "Ruby"],
-  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+  technologies: ['HTML', 'Bootstrap', 'Ruby'],
+  link: 'https://dhuruvsingh.github.io/Portfolio-Website/',
 },
 {
-  name: "Profesional Art Printing Data",
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  name: 'Profesional Art Printing Data',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
   image: "./Image/project-bg-img.png",
-  technologies: ["HTML", "Bootstrap", "Ruby"],
-  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+  technologies: ['HTML', 'Bootstrap', 'Ruby'],
+  link: 'https://dhuruvsingh.github.io/Portfolio-Website/',
 },
 {
-  name: "Data Dashboard Healthcare",
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  name: 'Data Dashboard Healthcare',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
   image: "./Image/project-bg-img.png",
-  technologies: ["HTML", "Bootstrap", "Ruby"],
-  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
+  technologies: ['HTML', 'Bootstrap', 'Ruby'],
+  link: 'https://dhuruvsingh.github.io/Portfolio-Website/',
 },
 {
-  name: "Website Protfolio",
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  name: 'Website Protfolio',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
   image: "./Image/project-bg-img.png",
-  technologies: ["HTML", "Bootstrap", "Ruby"],
-  link: "https://dhuruvsingh.github.io/Portfolio-Website/",
-},]
+  technologies: ['HTML', 'Bootstrap', 'Ruby'],
+  link: 'https://dhuruvsingh.github.io/Portfolio-Website/',
+},
+];
 
 openModalButtons.forEach((button) => {
   button.addEventListener('click', (event) => {
-    if (event.currentTarget.classList[0] === "project-1-btn") {
-      const projectOne = document.getElementById('modal').innerHTML = `<div class="modal-header">
+    if (event.currentTarget.classList[0] === 'project-1-btn') {
+      document.getElementById('modal').innerHTML = `<div class="modal-header">
       <div class="title">${projects[0].name}</div>
       <button data-close-button class="close-button">&times;</button>
   </div>
@@ -132,8 +132,8 @@ openModalButtons.forEach((button) => {
           </div>
       </div>
   </div>`;
-    } else if (event.currentTarget.classList[0] === "project-2-btn") {
-      const projectOne = document.getElementById('modal').innerHTML = `<div class="modal-header">
+    } else if (event.currentTarget.classList[0] === 'project-2-btn') {
+      document.getElementById('modal').innerHTML = `<div class="modal-header">
       <div class="title">${projects[1].name}</div>
       <button data-close-button class="close-button">&times;</button>
   </div>
@@ -163,8 +163,8 @@ openModalButtons.forEach((button) => {
           </div>
       </div>
   </div>`;
-    } else if (event.currentTarget.classList[0] === "project-3-btn") {
-      const projectOne = document.getElementById('modal').innerHTML = `<div class="modal-header">
+    } else if (event.currentTarget.classList[0] === 'project-3-btn') {
+      document.getElementById('modal').innerHTML = `<div class="modal-header">
       <div class="title">${projects[2].name}</div>
       <button data-close-button class="close-button">&times;</button>
   </div>
@@ -194,8 +194,8 @@ openModalButtons.forEach((button) => {
           </div>
       </div>
   </div>`;
-    } else if (event.currentTarget.classList[0] === "project-4-btn") {
-      const projectOne = document.getElementById('modal').innerHTML = `<div class="modal-header">
+    } else if (event.currentTarget.classList[0] === 'project-4-btn') {
+      document.getElementById('modal').innerHTML = `<div class="modal-header">
       <div class="title">${projects[3].name}</div>
       <button data-close-button class="close-button">&times;</button>
   </div>
@@ -225,8 +225,8 @@ openModalButtons.forEach((button) => {
           </div>
       </div>
   </div>`;
-    } else if (event.currentTarget.classList[0] === "project-5-btn"){
-      const projectOne = document.getElementById('modal').innerHTML = `<div class="modal-header">
+    } else if (event.currentTarget.classList[0] === 'project-5-btn') {
+      document.getElementById('modal').innerHTML = `<div class="modal-header">
       <div class="title">${projects[4].name}</div>
       <button data-close-button class="close-button">&times;</button>
   </div>
@@ -256,8 +256,8 @@ openModalButtons.forEach((button) => {
           </div>
       </div>
   </div>`;
-    } else if (event.currentTarget.classList[0] === "project-6-btn") {
-      const projectOne = document.getElementById('modal').innerHTML = `<div class="modal-header">
+    } else if (event.currentTarget.classList[0] === 'project-6-btn') {
+      document.getElementById('modal').innerHTML = `<div class="modal-header">
       <div class="title">${projects[5].name}</div>
       <button data-close-button class="close-button">&times;</button>
   </div>
@@ -288,7 +288,7 @@ openModalButtons.forEach((button) => {
       </div>
   </div>`;
     } else {
-      const projectOne = document.getElementById('modal').innerHTML = `<div class="modal-header">
+      document.getElementById('modal').innerHTML = `<div class="modal-header">
       <div class="title">Keeping track of hundreds of components website</div>
       <button data-close-button class="close-button">&times;</button>
   </div>
@@ -324,5 +324,5 @@ openModalButtons.forEach((button) => {
       </div>
   </div>`;
     }
-  })
-})
+  });
+});
