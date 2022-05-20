@@ -336,7 +336,6 @@ function formSubmit(event) {
   const userName = document.getElementById('fullname').value;
   const email = document.getElementById('email').value;
   const message = document.getElementById('msg').value;
-
   if (email !== email.toLowerCase()) {
     document.getElementById('error').classList.add('show-error');
   } else {
@@ -348,4 +347,5 @@ function formSubmit(event) {
     window.localStorage.setItem('userData', userData);
     document.getElementById('contact').reset();
   }
+  event.preventDefault();
 }
