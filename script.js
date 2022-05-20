@@ -336,7 +336,7 @@ function formSubmit(event) {
   const userName = document.getElementById('fullname').value;
   const email = document.getElementById('email').value;
   const message = document.getElementById('msg').value;
-  event.preventDefault();
+
   if (email !== email.toLowerCase()) {
     document.getElementById('error').classList.add('show-error');
   } else {
