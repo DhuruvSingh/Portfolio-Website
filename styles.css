@@ -1537,10 +1537,15 @@ hr {
   display: flex;
   width: 100%;
 }
+
+.show-error {
+  display: block !important;
+}
+  
 .error {
   display: none;
   width: 98%;
-  background: #ff6b00;
+  background: rgb(255, 107, 0) 30%;
   color: #fff;
   border-radius: 4px;
   padding: 5px;

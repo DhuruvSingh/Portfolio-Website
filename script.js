@@ -326,3 +326,26 @@ openModalButtons.forEach((button) => {
     }
   });
 });
+
+// Contact form validation
+
+const submitButton = document.getElementById("send-button");
+submitButton.addEventListener("click", formSubmit);
+
+function formSubmit(event) {
+  const userName = document.getElementById("fullname").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("msg").value;
+  event.preventDefault();
+  if (email !== email.toLowerCase()) {
+    document.getElementById("error").classList.add("show-error");
+  } else {
+    const userData = JSON.stringify({
+      userName: userName,
+      email: email,
+      message: message,
+    });
+    window.localStorage.setItem("userData", userData);
+    document.getElementById("contact").reset();
+  }
+}        
