@@ -1541,7 +1541,7 @@ hr {
 .show-error {
   display: block !important;
 }
-  
+
 .error {
   display: none;
   width: 98%;
@@ -1554,6 +1554,7 @@ hr {
   text-align: center;
   font-weight: 500;
 }
+
 /* Contact Form section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
