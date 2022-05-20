@@ -1537,7 +1537,18 @@ hr {
   display: flex;
   width: 100%;
 }
-
+.error {
+  display: none;
+  width: 98%;
+  background: #ff6b00;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+}
 /* Contact Form section style end here */
 
 /* ------------------------------------------------------------------------------------------------------------------ */
