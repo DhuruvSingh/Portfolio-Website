@@ -99,6 +99,8 @@ const projects = [{
 },
 ];
 
+
+
 openModalButtons.forEach((button) => {
   button.addEventListener('click', (event) => {
     if (event.currentTarget.classList[0] === 'project-1-btn') {
@@ -326,6 +328,8 @@ openModalButtons.forEach((button) => {
     }
   });
 });
+
+
 
 // Contact form validation
 
