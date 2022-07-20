@@ -34,7 +34,7 @@
             <button class="hamburger">
                 <i class="menuIcon material-icons">menu</i>
                 <i class="closeIcon material-icons">close</i>
-              </button>
+            </button>
         </nav>
     </header>
     <main>
@@ -82,7 +82,7 @@
         <div class="work-section" id="portfolio">
             <div class="recent-work">
                 <h1 class="title">My Recent Works</h1>
-                <img class="vector-line" src="./Icons/Vector.png" alt="Black line">
+                <img class="vector-line" src="./Icons/Vector1.png" alt="Black line">
             </div>
             <div class="work-grid">
                 <div class="feature-post">
@@ -103,9 +103,46 @@
                                 <li class="tag-4">Ruby</li>
                             </ul>
                         </div>
-                        <button class="button-p-main" type="button">See Project</button>
+                        <button data-modal-target="#modal" class="button-p-main" type="button">See Project</button>
                     </div>
-
+                    <div class="modal" id="modal">
+                        <div class="modal-header">
+                            <div class="title">Keeping track of hundreds of components website</div>
+                            <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="language-tags-model language-tags">
+                                <ul class="tags-model">
+                                    <li class="model-tag tag-1">css</li>
+                                    <li class="model-tag tag-2">html</li>
+                                    <li class="model-tag-b tag-3">bootstrap</li>
+                                    <li class="model-tag tag-4">Ruby</li>
+                                </ul>
+                            </div>
+                            <div class="model-main-project">
+                                <div class="model-Img-Placeholder">
+                                </div>
+                                <div class="model-project-left">
+                                    <div>
+                                        <p class="model-supporting-text">A daily selection of privately personalized
+                                            reads; no accounts or
+                                            sign-ups
+                                            required. has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown printer took a
+                                            standard dummy
+                                            text.</p>
+                                    </div>
+                                    <div class="model-btn">
+                                        <button class="model-button-p-main" type="button">See Project <img
+                                                src="./Icons/Icon-see-live.png" alt=""></button>
+                                        <button class="model-button-p-main" type="button">See Source <img
+                                                src="./Icons/github.png" alt=""></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
                 </div>
                 <div class="card1">
                     <div class="project-1">
@@ -120,7 +157,9 @@
                                 <li class="tag-p3">Ruby</li>
                             </ul>
                         </div>
-                        <button class="button-p" type="button"><span class="see-project">See Project</span></button>
+                        <button data-modal-target="#modal" class="project-1-btn button-p" type="button"><span
+                                class="see-project">See
+                                Project</span></button>
                     </div>
                     <div class="project-2">
                         <h4>Data Dashboard<br>Healthcare</h4>
@@ -134,7 +173,9 @@
                                 <li class="tag-p3">Ruby</li>
                             </ul>
                         </div>
-                        <button class="button-p" type="button"><span class="see-project">See Project</span></button>
+                        <button data-modal-target="#modal" class="project-2-btn button-p" type="button"><span
+                                class="see-project">See
+                                Project</span></button>
                     </div>
                     <div class="project-3">
                         <h4>Website Protfolio </h4>
@@ -148,7 +189,9 @@
                                 <li class="tag-p3">Ruby</li>
                             </ul>
                         </div>
-                        <button class="button-p" type="button"><span class="see-project">See Project</span></button>
+                        <button data-modal-target="#modal" class="project-3-btn button-p" type="button"><span
+                                class="see-project">See
+                                Project</span></button>
                     </div>
                 </div>
 
@@ -165,7 +208,9 @@
                                 <li class="tag-p3">Ruby</li>
                             </ul>
                         </div>
-                        <button class="button-p" type="button"><span class="see-project">See Project</span></button>
+                        <button data-modal-target="#modal" class="project-4-btn button-p" type="button"><span
+                                class="see-project">See
+                                Project</span></button>
                     </div>
                     <div class="project-5">
                         <h4>Data Dashboard<br>Healthcare</h4>
@@ -179,7 +224,9 @@
                                 <li class="tag-p3">Ruby</li>
                             </ul>
                         </div>
-                        <button class="button-p" type="button"><span class="see-project">See Project</span></button>
+                        <button data-modal-target="#modal" class="project-5-btn button-p" type="button"><span
+                                class="see-project">See
+                                Project</span></button>
                     </div>
                     <div class="project-6">
                         <h4>Website Protfolio </h4>
@@ -193,7 +240,9 @@
                                 <li class="tag-p3">Ruby</li>
                             </ul>
                         </div>
-                        <button class="button-p" type="button"><span class="see-project">See Project</span></button>
+                        <button data-modal-target="#modal" class="project-6-btn button-p" type="button"><span
+                                class="see-project">See
+                                Project</span></button>
                     </div>
                 </div>
 
@@ -222,7 +271,8 @@
             <div class="skills-main">
                 <div class="skill">
                     <div class="lang-knows1">
-                        <h2 class="language"><span><img src="./Image/Rectangle-55.png" alt="Rectangle image"></span>Language</h2>
+                        <h2 class="language"><span><img src="./Image/Rectangle-55.png"
+                                    alt="Rectangle image"></span>Language</h2>
                         <ul class="lang-ul-box">
                             <li class="lang-li-box1">JavaScript</li>
                             <li class="lang-li-box1">Ruby</li>
@@ -231,7 +281,8 @@
                         </ul>
                     </div>
                     <div class="lang-knows2">
-                        <h2 class="frameworks"><span><img src="./Image/Rectangle-56.png" alt="Rectangle image"></span>Frameworks</h2>
+                        <h2 class="frameworks"><span><img src="./Image/Rectangle-56.png"
+                                    alt="Rectangle image"></span>Frameworks</h2>
                         <ul class="lang-ul-box">
                             <li class="lang-li-box2">Bootstrap</li>
                             <li class="lang-li-box2-ruby">Ruby on Rails</li>
@@ -241,7 +292,8 @@
                         </ul>
                     </div>
                     <div class="lang-knows3">
-                        <h2 class="skills"><span><img src="./Image/Rectangle-57.png" alt="Rectangle image"></span>Skills</h2>
+                        <h2 class="skills"><span><img src="./Image/Rectangle-57.png" alt="Rectangle image"></span>Skills
+                        </h2>
                         <ul class="lang-ul-box">
                             <li class="lang-li-box3">Codekit</li>
                             <li class="lang-li-box3">Github</li>
